@@ -1,6 +1,6 @@
 {
   "name": "postcss-remove-selectors",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "PostCSS plugin that removes selectors from your CSS.",
   "main": "index.js",
   "files": [
