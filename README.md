@@ -25,7 +25,7 @@ const postcss = require("postcss");
 const removeSelectors = require("postcss-remove-selectors");
 
 const css = fs.readFileSync("input.css", "utf8");
-const output = postcss().use(removeSelectors(["a"])).process(css).css;
+const output = postcss().use(removeSelectors({selectors: ["a"]})).process(css).css;
 ```
 
 the following CSS

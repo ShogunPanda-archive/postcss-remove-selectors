@@ -3,7 +3,9 @@
  * Licensed under the MIT license, which can be found at http://www.opensource.org/licenses/mit-license.php.
  */
 
-module.exports = require("postcss").plugin("postcss-remove-selectors", selectors => {
+module.exports = require("postcss").plugin("postcss-remove-selectors", options => {
+  const selectors = (options || {}).selectors;
+
   if(!Array.isArray(selectors))
     throw new TypeError("selectors should be a list of selectors to remove");
 
