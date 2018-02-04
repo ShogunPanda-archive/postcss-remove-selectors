@@ -1,7 +1,7 @@
 # postcss-remove-selectors
 
-[![Package Version](https://badge.fury.io/js/postcss-remove-selectors.png)](http://badge.fury.io/js/postcss-remove-selectors)
-[![Dependency Status](https://gemnasium.com/ShogunPanda/postcss-remove-selectors.png?travis)](https://gemnasium.com/ShogunPanda/postcss-remove-selectors)
+[![Package Version](https://img.shields.io/npm/v/postcss-remove-selectors.svg)](https://npmjs.com/package/postcss-remove-selectors)
+[![Dependency Status](https://img.shields.io/gemnasium/ShogunPanda/postcss-remove-selectors.svg)](https://gemnasium.com/ShogunPanda/postcss-remove-selectors)
 
 [PostCSS](http://postcss.org/) plugin that removes selectors from your CSS.
 
@@ -65,4 +65,4 @@ postcss-remove-selectors supports and has been tested on [NodeJS](http://nodejs.
 
 Copyright (C) 2017 and above Shogun <shogun@cowtech.it>.
 
-Licensed under the MIT license, which can be found at http://opensource.org/licenses/MIT.
+Licensed under the MIT license, which can be found at https://choosealicense.com/licenses/mit.
