@@ -1,11 +1,8 @@
 # postcss-remove-selectors
 
-[![Package Version](https://img.shields.io/npm/v/postcss-remove-selectors.svg)](https://npmjs.com/package/postcss-remove-selectors)
-[![Dependency Status](https://img.shields.io/gemnasium/ShogunPanda/postcss-remove-selectors.svg)](https://gemnasium.com/ShogunPanda/postcss-remove-selectors)
+## END OF DEVELOPMENT NOTICE - This package has been discontinued
 
 [PostCSS](http://postcss.org/) plugin that removes selectors from your CSS.
-
-https://sw.cowtech.it/postcss-remove-selectors
 
 ## Usage
 
@@ -20,13 +17,13 @@ If a rule matches only that selector, the rule will be removed entirely, otherwi
 Given this plugin configuration:
 
 ```javascript
-const fs = require("fs")
-const postcss = require("postcss")
-const removeSelectors = require("postcss-remove-selectors")
+const fs = require('fs')
+const postcss = require('postcss')
+const removeSelectors = require('postcss-remove-selectors')
 
-const css = fs.readFileSync("input.css", "utf8")
+const css = fs.readFileSync('input.css', 'utf8')
 const output = postcss()
-  .use(removeSelectors({ selectors: ["a"] }))
+  .use(removeSelectors({ selectors: ['a'] }))
   .process(css).css
 ```
 
